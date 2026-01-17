@@ -70,20 +70,20 @@ body {
   /* Rarities
   ================================================================ */
 
-  --cd-rarity-common-bg: #e9d558;
+  --cd-rarity-common-bg: #90da82;
   --cd-rarity-common-txt: #ffffff;
 
-  --cd-rarity-unusual-bg: #a9ed89;
+  --cd-rarity-unusual-bg: #6f9dde;
   --cd-rarity-unusual-txt: var(--cd-rarity-common-txt);
   
-  --cd-rarity-rare-bg: #9ddac8;
+  --cd-rarity-rare-bg: #e59475;
   --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
 
-  --cd-rarity-epic-bg: rgb(143, 174, 228);
+  --cd-rarity-epic-bg: #d988ba;
   --cd-rarity-epic-txt: var(--cd-rarity-common-txt);
 
-  --cd-rarity-seasonal-bg: #d994c9;
-  --cd-rarity-seasonal-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-enchanted-bg: #9991a1;
+  --cd-rarity-enchanted-txt: var(--cd-rarity-common-txt);
 
 
   /* ============================================================= */
@@ -770,14 +770,9 @@ p:last-child {
   color: var(--cd-rarity-epic-txt);
 }
 
-.badge-modified {
-  background-color: var(--cd-rarity-modified-bg);
-  color: var(--cd-rarity-modified-txt);
-}
-
-.badge-seasonal {
-  background-color: var(--cd-rarity-seasonal-bg);
-  color: var(--cd-rarity-seasonal-txt);
+.badge-enchanted {
+  background-color: var(--cd-rarity-enchanted-bg);
+  color: var(--cd-rarity-enchanted-txt);
 }
 
 /* ============================================================= */
@@ -847,18 +842,18 @@ body.alt-palette {
   --cd-input-border-color: #55557a;
   --cd-input-border-color-hover: var(--cd-link-text-color);
 
-  --cd-rarity-common-bg: var(--cd-link-text-color);
-  --cd-rarity-common-txt: var(--cd-primary-text-color);
+  --cd-rarity-common-bg: #90da82;
+  --cd-rarity-common-txt: #ffffff;
 
-  --cd-rarity-unusual-bg: var(--cd-link-text-color-hover);
-  --cd-rarity-unusual-txt: #fff;
-
-  --cd-rarity-rare-bg: #06d6a0;
+  --cd-rarity-unusual-bg: #6f9dde;
+  --cd-rarity-unusual-txt: var(--cd-rarity-common-txt);
+  
+  --cd-rarity-rare-bg: #e59475;
   --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
 
-  --cd-rarity-epic-bg: #118ab2;
-  --cd-rarity-epic-txt: var(--cd-rarity-unusual-txt);
+  --cd-rarity-epic-bg: #d988ba;
+  --cd-rarity-epic-txt: var(--cd-rarity-common-txt);
 
-  --cd-rarity-seasonal-bg: #9a4085;
-  --cd-rarity-seasonal-txt: var(--cd-rarity-unusual-txt);
+  --cd-rarity-enchanted-bg: #9991a1;
+  --cd-rarity-enchanted-txt: var(--cd-rarity-common-txt);
 }

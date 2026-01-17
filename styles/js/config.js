@@ -46,12 +46,12 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Design', 'MYO Slot'],
-    statuses: ['All', 'Voided', 'Purchased'],
-    rarity: ['All', 'Common', 'Unusual', 'Rare', 'Epic'],
+    designTypes: ['All', 'NPC', 'Official Design', 'Guest Design', 'MYO Design', 'MYO Slot'],
+    statuses: ['All', 'Purchased', 'Account-Bound'],
+    rarity: ['All', 'Common', 'Unusual', 'Rare', 'Epic', 'Enchanted'],
     species: ['All', 'Ghosky', 'MYO Slot'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Upgrade', 'Trait', 'Collectible', 'Companion', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Collars', 'Tails', 'Spirit', 'Enchanted', 'Misc'],
+    traitTypes: ['All', 'Ears', 'Collars', 'Tails', 'Spirits', 'Enchantment'],
     companionCategory: ['All', 'Basic', 'Event', 'Seasonal'],
     promptCategory: ['All', 'Permanent', 'Monthly', 'Event', 'Seasonal'],
     bondLevel: ['Wary (★)', 'Neutral (★★)', 'Warm (★★★)', 'Comfortable (★★★★)', 'BFFs (★★★★★)'],
@@ -771,7 +771,7 @@ charadex.page.index = {
       toggle: true,
       key: "id",
       order: "desc",
-      parameters: ['Plushibee']
+      parameters: ['Ghosky']
     },
   }
 
