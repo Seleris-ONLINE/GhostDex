@@ -15,20 +15,20 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #f1be88;
+  --cd-primary-color: #7ed1d8;
   --cd-primary-text-color: #fff;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color: #ddad7f;
+  --cd-secondary-color: #7ed1d8;
   --cd-secondary-text-color: #fff;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #fffef6;
-  --cd-content-background-color: #ffffff;
+  --cd-body-background-color: #20262c;
+  --cd-content-background-color: #e6edf4;
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
@@ -37,8 +37,8 @@ body {
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color: #333131;
-  --cd-faded-text-color: #5d5a59;
+  --cd-body-text-color: #313133;
+  --cd-faded-text-color: #59595d;
 
   /* ============================================================= */
   /* Borders
@@ -51,7 +51,7 @@ body {
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color: #2f2d2d;
+  --cd-navbar-background-color: #303739;
   --cd-navbar-brand-color: var(--cd-primary-color);
   --cd-navbar-brand-color-hover: var(--cd-secondary-color);
   --cd-navbar-text-color: var(--cd-content-background-color);
@@ -70,23 +70,20 @@ body {
   /* Rarities
   ================================================================ */
 
-  --cd-rarity-standard-bg: #e9d558;
-  --cd-rarity-standard-txt: #ffffff;
+  --cd-rarity-common-bg: #e9d558;
+  --cd-rarity-common-txt: #ffffff;
 
   --cd-rarity-unusual-bg: #a9ed89;
-  --cd-rarity-unusual-txt: var(--cd-rarity-standard-txt);
+  --cd-rarity-unusual-txt: var(--cd-rarity-common-txt);
   
   --cd-rarity-rare-bg: #9ddac8;
-  --cd-rarity-rare-txt: var(--cd-rarity-standard-txt);
+  --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
 
   --cd-rarity-epic-bg: rgb(143, 174, 228);
-  --cd-rarity-epic-txt: var(--cd-rarity-standard-txt);
-
-  --cd-rarity-modified-bg: #c7c0b4;
-  --cd-rarity-modified-txt: var(--cd-rarity-standard-txt);
+  --cd-rarity-epic-txt: var(--cd-rarity-common-txt);
 
   --cd-rarity-seasonal-bg: #d994c9;
-  --cd-rarity-seasonal-txt: var(--cd-rarity-standard-txt);
+  --cd-rarity-seasonal-txt: var(--cd-rarity-common-txt);
 
 
   /* ============================================================= */
@@ -128,7 +125,7 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color: #d8b66c;
+  --cd-link-text-color: #7ed1d8;
   --cd-link-text-color-hover: var(--cd-secondary-color);
 
 
@@ -731,7 +728,7 @@ p:last-child {
 /* For the hero image in the index */
 .cd-hero-title {
   color: #fff;
-  background-color: #f1be88;
+  background-color: #7ed1d8;
   border-radius: var(--cd-border-radius);
   font-family: var(--cd-header-font-family);
   display: flex;
@@ -753,9 +750,9 @@ p:last-child {
 /* Rarity
 /* ============================================================= */
 
-.badge-standard {
-  background-color: var(--cd-rarity-standard-bg);
-  color: var(--cd-rarity-standard-txt);
+.badge-common {
+  background-color: var(--cd-rarity-common-bg);
+  color: var(--cd-rarity-common-txt);
 }
 
 .badge-unusual {
@@ -812,10 +809,10 @@ body {
 }
 
 body.alt-palette {
-  --cd-primary-color: #f1be88;
+  --cd-primary-color: #7ed1d8;
   --cd-primary-text-color: #1a1a1a;
 
-  --cd-secondary-color: #c36247;
+  --cd-secondary-color: #7ed1d8;
   --cd-secondary-text-color: #fdfdfd;
 
   --cd-body-background-color: #1e1e2f;
@@ -850,20 +847,17 @@ body.alt-palette {
   --cd-input-border-color: #55557a;
   --cd-input-border-color-hover: var(--cd-link-text-color);
 
-  --cd-rarity-standard-bg: var(--cd-link-text-color);
-  --cd-rarity-standard-txt: var(--cd-primary-text-color);
+  --cd-rarity-common-bg: var(--cd-link-text-color);
+  --cd-rarity-common-txt: var(--cd-primary-text-color);
 
   --cd-rarity-unusual-bg: var(--cd-link-text-color-hover);
   --cd-rarity-unusual-txt: #fff;
 
   --cd-rarity-rare-bg: #06d6a0;
-  --cd-rarity-rare-txt: var(--cd-rarity-standard-txt);
+  --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
 
   --cd-rarity-epic-bg: #118ab2;
   --cd-rarity-epic-txt: var(--cd-rarity-unusual-txt);
-
-  --cd-rarity-modified-bg: #1d657d;
-  --cd-rarity-modified-txt: var(--cd-rarity-unusual-txt);
 
   --cd-rarity-seasonal-bg: #9a4085;
   --cd-rarity-seasonal-txt: var(--cd-rarity-unusual-txt);
